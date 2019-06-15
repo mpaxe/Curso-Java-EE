@@ -23,7 +23,7 @@ public class PersistirObjetoJPA {
 		//Iniciamos la transacción 
 		
 		//Paso 1. Crear nuevo objeto en estado transitivo
-		Persona persona1 = new Persona("Pepe","Perez","Sanchez","pepePerez@mail.com","954945954");
+		Persona persona1 = new Persona("David","Conte","Maldini","david@mail.com","954945954");
 		
 		//Paso 2. Iniciamos la transacción
 		tx.begin();
