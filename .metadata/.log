@@ -4884,3 +4884,50 @@ org.eclipse.core.runtime.CoreException: Launch configuration ASMifier references
 
 !ENTRY org.eclipse.jface.text 2 0 2019-06-15 11:28:24.365
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.glassfish.tools 4 0 2019-06-15 11:52:16.077
+!MESSAGE deploy is failing=
+!STACK 0
+java.lang.Exception: deploy is failing=Error occurred during deployment: Exception while preparing the app : The persistence-context-ref-name [es.mpaxe.sga.eis.UsuarioDaoImpl/em] in module [sga-jee-web-cicloVidaJPA] resolves to a persistence unit called [PersonaPU] which is of type RESOURCE_LOCAL. Only persistence units with transaction type JTA can be used as a container managed entity manager. Please verify your application.. Please see server.log for more details.
+	at org.eclipse.glassfish.tools.GlassFishServerBehaviour.publishJarFile(GlassFishServerBehaviour.java:891)
+	at org.eclipse.glassfish.tools.GlassFishServerBehaviour.publishModuleForGlassFishV3(GlassFishServerBehaviour.java:827)
+	at org.eclipse.glassfish.tools.GlassFishServerBehaviour.publishModule(GlassFishServerBehaviour.java:785)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1093)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1185)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:989)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:776)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2019-06-15 11:52:16.112
+!MESSAGE Publishing failed
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2019-06-15 11:52:16.112
+!MESSAGE Could not publish to the server.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.glassfish.tools.ExportJavaEEArchive.export(ExportJavaEEArchive.java:43)
+	at org.eclipse.glassfish.tools.GlassFishServerBehaviour.publishJarFile(GlassFishServerBehaviour.java:860)
+	at org.eclipse.glassfish.tools.GlassFishServerBehaviour.publishModuleForGlassFishV3(GlassFishServerBehaviour.java:827)
+	at org.eclipse.glassfish.tools.GlassFishServerBehaviour.publishModule(GlassFishServerBehaviour.java:785)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1093)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1185)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:989)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:776)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.glassfish.tools 4 0 2019-06-15 11:52:16.112
+!MESSAGE cannot Deploy sga-jee-web-cicloVidaJPA
+!STACK 0
+java.lang.Exception: deploy is failing=Error occurred during deployment: Exception while preparing the app : The persistence-context-ref-name [es.mpaxe.sga.eis.UsuarioDaoImpl/em] in module [sga-jee-web-cicloVidaJPA] resolves to a persistence unit called [PersonaPU] which is of type RESOURCE_LOCAL. Only persistence units with transaction type JTA can be used as a container managed entity manager. Please verify your application.. Please see server.log for more details.
+	at org.eclipse.glassfish.tools.GlassFishServerBehaviour.publishJarFile(GlassFishServerBehaviour.java:891)
+	at org.eclipse.glassfish.tools.GlassFishServerBehaviour.publishModuleForGlassFishV3(GlassFishServerBehaviour.java:827)
+	at org.eclipse.glassfish.tools.GlassFishServerBehaviour.publishModule(GlassFishServerBehaviour.java:785)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1093)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1185)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:989)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:776)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3184)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:357)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
