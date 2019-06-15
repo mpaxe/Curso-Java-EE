@@ -1,0 +1,5 @@
+package es.mpaxe.sga.servicio;
+
+public interface UsuarioService {
+
+}

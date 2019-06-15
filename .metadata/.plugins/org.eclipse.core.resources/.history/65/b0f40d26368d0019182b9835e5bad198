@@ -1,0 +1,5 @@
+package es.mpaxe.sga.eis;
+
+public interface UsuarioDao {
+
+}

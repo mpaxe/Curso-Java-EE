@@ -1,0 +1,14 @@
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/eis/UsuarioDaoImpl.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/servicio/PersonaService.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/web/PersonasServlet.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/eis/PersonaDao.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/domain/Usuario.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/servicio/PersonaServiceRemote.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/eis/PersonaDaoImpl.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/servicio/UsuarioServiceImpl.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/domain/Persona.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/servicio/UsuarioService.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/web/UsuarioServlet.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/servicio/PersonaServiceImpl.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/eis/UsuarioDao.java
+/home/alvaro/eclipse-workspace/Curso-Java-EE/sga-jee-web/src/main/java/es/mpaxe/sga/servicio/UsuarioServiceRemote.java

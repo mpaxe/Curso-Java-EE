@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="usuarios" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="usuarios"/>
+			<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;persistence version=&quot;2.2&quot; xmlns=&quot;http://xmlns.jcp.org/xml/ns/persistence&quot; &#x0A;xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; &#x0A;xsi:schemaLocation=&quot;http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence_2_2.xsd&quot;&gt;"/>
+			<item value="ClientePersonaServiceConIP"/>
+			<item value="http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd&quot;"/>
+			<item value="xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;"/>
+			<item value="xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-&#x0A;instance&quot;"/>
+			<item value="xmlns=&quot;http://xmlns.jcp.org/xml/ns/persistence&quot;"/>
+			<item value="&lt;persistence version=&quot;2.1&quot;"/>
+			<item value="&lt;persistence version=&quot;2.1&quot; xmlns=&quot;http://xmlns.jcp.org/xml/ns/persistence&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-&#x0A;instance&quot; xsi:schemaLocation=&quot;http://xmlns.jcp.org/xml/ns/persistence&#x0A;http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd&quot;&gt;&#x0A;&lt;persistence-unit name=&quot;PersonaPU&quot; transaction-type=&quot;RESOURCE_LOCAL&quot;&gt;"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="325" key="DIALOG_WIDTH"/>
+		<item value="1|Noto Sans|9.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="413" key="DIALOG_HEIGHT"/>
+		<item value="738" key="DIALOG_X_ORIGIN"/>
+		<item value="159" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

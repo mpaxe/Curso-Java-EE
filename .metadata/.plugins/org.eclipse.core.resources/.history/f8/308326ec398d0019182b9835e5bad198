@@ -1,0 +1,25 @@
+package es.mpaxe.sga.servicio;
+
+import java.util.List;
+
+import javax.ejb.Local;
+
+import es.mpaxe.sga.domain.Usuario;
+
+@Local
+public interface UsuarioService {
+
+public List<Usuario> findAllUsuario();
+	
+	public Usuario findByIdUsuario(Usuario usuario);
+	
+	public Usuario findByUserName(Usuario usuario);
+	
+	public List<Usuario> findByPassword (Usuario usuario);
+	
+	public void insertarUsuario(Usuario usuario);
+	
+	public void editarUsuario(Usuario usuario);
+
+	public void eliminarUsuario(Usuario usuario);
+}

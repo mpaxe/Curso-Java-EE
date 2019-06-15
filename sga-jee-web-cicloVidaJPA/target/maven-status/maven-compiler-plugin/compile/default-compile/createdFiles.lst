@@ -1,0 +1,14 @@
+es/mpaxe/sga/domain/Usuario.class
+es/mpaxe/sga/eis/PersonaDaoImpl.class
+es/mpaxe/sga/web/UsuarioServlet.class
+es/mpaxe/sga/servicio/UsuarioServiceImpl.class
+es/mpaxe/sga/servicio/PersonaServiceImpl.class
+es/mpaxe/sga/servicio/UsuarioServiceRemote.class
+es/mpaxe/sga/eis/UsuarioDao.class
+es/mpaxe/sga/servicio/PersonaServiceRemote.class
+es/mpaxe/sga/servicio/PersonaService.class
+es/mpaxe/sga/domain/Persona.class
+es/mpaxe/sga/servicio/UsuarioService.class
+es/mpaxe/sga/web/PersonasServlet.class
+es/mpaxe/sga/eis/UsuarioDaoImpl.class
+es/mpaxe/sga/eis/PersonaDao.class

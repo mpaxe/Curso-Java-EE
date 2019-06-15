@@ -1,0 +1,5 @@
+com/mpaxe/service/PersonaServiceImpl.class
+com/mpaxe/cliente/ClientePersonaService.class
+com/mpaxe/pojos/Persona.class
+com/mpaxe/cliente/ClientePersonaServiceConIP.class
+com/mpaxe/service/PersonaServiceRemote.class

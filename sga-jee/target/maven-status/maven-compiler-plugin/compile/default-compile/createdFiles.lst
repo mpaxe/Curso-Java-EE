@@ -1,0 +1,5 @@
+es/mpaxe/sga/domain/Persona.class
+es/mpaxe/sga/servicio/PersonaServiceImpl.class
+es/mpaxe/sga/servicio/PersonaServiceRemote.class
+es/mpaxe/cliente/ClientePersonaServiceConIP.class
+es/mpaxe/cliente/ClientePersonaService.class

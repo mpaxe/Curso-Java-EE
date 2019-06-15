@@ -1,0 +1,37 @@
+package es.mpaxe.sga.eis;
+
+import java.util.List;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import es.mpaxe.sga.domain.Usuario;
+
+@Stateless
+public class UsuarioDaoImpl implements UsuarioDao {
+
+	@PersistenceContext(unitName = "UsuarioPU")
+	
+	EntityManager em;
+	
+	public List<Usuario> findAllUsuario(Usuario usuario) {
+		return em.createNamedQuery("Usuario.findAll").getResultList();
+	}
+
+	public Usuario findByIdUsuario(Usuario usuario) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Usuario findByUserName(Usuario usuario) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public List<Usuario> findByPassword(Usuario usuario) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
