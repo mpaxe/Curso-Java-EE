@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;sga-jee&apos; to &apos;sga-jee-app&apos;" description="Rename resource &apos;sga-jee&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/sga-jee" name="sga-jee-app" stamp="1556464666973" updateReferences="true"/>
-</session>

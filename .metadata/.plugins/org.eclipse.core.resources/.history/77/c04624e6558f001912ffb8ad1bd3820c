@@ -1,9 +1,0 @@
-package es.mpaxe.cliente.cicloVidaJPA;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-public class ActualizarObjetoJPA {
-
-	static Logger log = new LogManager.getRootLogger();
-}
